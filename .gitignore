@@ -1,0 +1,16 @@
+.venv/
+deps/
+__pycache__/
+*.pyc
+runs/
+logs/
+presets/
+tools/bin/
+*.MF4
+*.mf4
+*.blf
+*.a2l
+*.dll
+*.exe
+*.png
+*.jpg

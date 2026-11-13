@@ -1,0 +1,24 @@
+{
+  "power_cycle": {
+    "status": "sample_only",
+    "description": "电动开关门：沿用已确认的14个信号及顺序",
+    "signals": [
+      "DoorLatPosnINP", "VeINP_HallDirHHM_enum", "VeSMM_DOPFcnStateOUP_enum",
+      "VfADC_BatVoltageValue_MV", "VfADC_MainMotoCurrent_MA", "VfHHM_AswHallPositionMCM_deg",
+      "VfINP_IMUAgSpd_degps", "VfMCM_TarSpd_NULL", "VsHHM_AswHallPosition_NULL",
+      "VsHHM_AswHallSpeed_rpm", "VsHHM_AswHallSpeed_rpm_Copy1", "VsIMU_AgSpdAcc_g",
+      "VuMCM_MotorCtrlDuty1_NULL", "VuMCM_MotorCtrlDuty2_NULL"
+    ],
+    "axis_mode": "common",
+    "y_range": "auto",
+    "legend_width": 480,
+    "selection_mode": "manual",
+    "require_black_background": true
+  },
+  "antipinch": {"function_id":"antipinch","description":"3.1 防夹力标定","status":"pending_user_spec","signals":[],"timing_rules":null,"required_views":null,"axis_mode":"common","paper_mm":[297,148.5]},
+  "manual_force": {"function_id":"manual_force","description":"3.2 手动开关门力","status":"pending_user_spec","signals":[],"timing_rules":null,"required_views":null,"axis_mode":"common","paper_mm":[297,148.5]},
+  "holding": {"function_id":"holding","description":"3.3 悬停角度差","status":"pending_user_spec","signals":[],"timing_rules":null,"required_views":null,"axis_mode":"common","paper_mm":[297,148.5]},
+  "slam": {"function_id":"slam","description":"3.4 恶意摔门","status":"pending_user_spec","signals":[],"timing_rules":null,"required_views":null,"axis_mode":"common","paper_mm":[297,148.5]},
+  "hvac": {"function_id":"hvac","description":"3.5 空调开启下电动开关门","status":"pending_user_spec","signals":[],"timing_rules":null,"required_views":null,"axis_mode":"common","paper_mm":[297,148.5]},
+  "smoothness": {"function_id":"smoothness","description":"3.6 平顺性含开关门时间","status":"pending_user_spec","signals":[],"timing_rules":null,"required_views":null,"axis_mode":"common","paper_mm":[297,148.5]}
+}
